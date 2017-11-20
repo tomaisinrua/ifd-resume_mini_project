@@ -124,17 +124,17 @@ img {
   margin-bottom: 10px;
   text-decoration: none;
   border: 1px solid #356492;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   color: #fff;
-  background-color: #3673af;
+  /*background-color: #3673af;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#5597d8), to(#3673af));
   background-image: -webkit-linear-gradient(top, #5597d8, #3673af);
   background-image: -moz-linear-gradient(top, #5597d8, #3673af);
   background-image: -ms-linear-gradient(top, #5597d8, #3673af);
   background-image: -o-linear-gradient(top, #5597d8, #3673af);
-  background-image: linear-gradient(top, #5597d8, #3673af);
+  background-image: linear-gradient(top, #5597d8, #3673af);*/
 }
 
 .repo-list ul li a:hover {

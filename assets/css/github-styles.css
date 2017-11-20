@@ -138,13 +138,13 @@ img {
 }
 
 .repo-list ul li a:hover {
-  background-color: #396895;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4b87c2), to(#396895));
-  background-image: -webkit-linear-gradient(top, #4b87c2, #396895);
-  background-image: -moz-linear-gradient(top, #4b87c2, #396895);
-  background-image: -ms-linear-gradient(top, #4b87c2, #396895);
-  background-image: -o-linear-gradient(top, #4b87c2, #396895);
-  background-image: linear-gradient(top, #4b87c2, #396895);
+  background-color: #6c97ba;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#252326), to(#6c97ba));
+  background-image: -webkit-linear-gradient(top, #252326, #6c97ba);
+  background-image: -moz-linear-gradient(top, #252326, #6c97ba);
+  background-image: -ms-linear-gradient(top, #252326, #6c97ba);
+  background-image: -o-linear-gradient(top, #252326, #6c97ba);
+  background-image: linear-gradient(top, #252326, #6c97ba);
 }
 
 .repo-list ul li a:active {
@@ -154,7 +154,7 @@ img {
 }
 
 .repo-list ul li a span {
-  font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
+  font-family: "junctionlight", Courier, "Lucida Typewriter", monospace;
   font-size: 0.9em;
 }
 

@@ -1,5 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
+@font-face {
+    font-family: 'junctionregular';
+    src: url('Junction-regular-webfont.eot');
+    src: url('Junction-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Junction-regular-webfont.woff2') format('woff2'),
+         url('Junction-regular-webfont.woff') format('woff'),
+         url('Junction-regular-webfont.ttf') format('truetype'),
+         url('Junction-regular-webfont.svg#junctionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'junctionlight';
+    src: url('Junction-light-webfont.eot');
+    src: url('Junction-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Junction-light-webfont.woff2') format('woff2'),
+         url('Junction-light-webfont.woff') format('woff'),
+         url('Junction-light-webfont.ttf') format('truetype'),
+         url('Junction-light-webfont.svg#junctionlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'junctionbold';
+    src: url('Junction-bold-webfont.eot');
+    src: url('Junction-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Junction-bold-webfont.woff2') format('woff2'),
+         url('Junction-bold-webfont.woff') format('woff'),
+         url('Junction-bold-webfont.ttf') format('truetype'),
+         url('Junction-bold-webfont.svg#junctionbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
@@ -74,7 +115,7 @@
 
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: junctionregular, sans-serif;
     font-weight: 300;
     background-color: #525252;
     color: #555555;
@@ -95,7 +136,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "junctionregular", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -111,7 +152,7 @@ h4 {
 
 .history-heading,
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "junctionregular", sans-serif;
     font-weight: 400;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -141,7 +182,7 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "junctionregular", sans-serif;
     font-weight: 300;
     font-size: 46px;
     margin-top: 50px;
@@ -149,7 +190,7 @@ header {
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "junctionlight", sans-serif;
     font-weight: 300;
     font-size: 28px;
     margin-top: 20px;
@@ -263,7 +304,7 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li {
-    margin: 2px;
+    margin-bottom: 10px;
 }
 
 /*--------------------------------------------Three Reasons*/
@@ -355,7 +396,7 @@ footer .cv-pdf i:hover {
     left: 2.5em;
     top: 2em;
     display: block;
-    font-family: "Exo", sans-serif;
+    font-family: "junctionregular", sans-serif;
     font-weight: 500;
     font-size: .8em;
     padding: 0;
@@ -386,7 +427,7 @@ footer .cv-pdf i:hover {
 /*--------------------------------------------Contact*/
 
 .contact-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "junctionregular", sans-serif;
     font-weight: 400;
     margin-top: 25px;
     margin-bottom: 20px;
